@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Header from "./header";
+import Header from "@/components/header";
 export default function Home() {
   return (
     <main>
@@ -7,6 +7,9 @@ export default function Home() {
       <p>🔥 Let&apos;s get started! 🔥</p>
       <p>
         <Link href="/about">About Us</Link>
+      </p>
+      <p>
+        <Link href="/blog">Blog</Link>
       </p>
     </main>
   );
